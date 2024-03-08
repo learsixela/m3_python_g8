@@ -24,3 +24,29 @@ print("Hola {}, El año es {} del mes {} y el dia {}".format(nombre,año,mes,dia
 
 #interpolacion con % (%s para string y %d para numeros)
 print("Hola %s, El año es %s del mes %d y el dia %d" %(nombre, año, mes,dia))
+
+#Metodo count -> busca y cuanta cuantas veces se encuentra un caracter en un string
+print("Saitama".count("a"))
+print(nombre.count("i"))
+#Metodos upper-> todo el string a mayuscula y lower -> todo el string a miniscula
+print("Saitama".upper())#SAITAMA
+print("SaItAmA".lower())#saitama
+print(nombre.upper())#MIJAIL
+print(nombre.lower())#mijail
+#Metodo title -> solo la primera "letra" a mayuscula
+print("14564saItAmA".title())#14564Saitama
+
+# len() -> contar los caracteres de una string
+print(len(" israel palma 2024"))#18
+
+#join -> unir string separados en un solo string
+print(", ".join(["mijail","palma","loren"]))
+
+#imprimir en mas de una linea (\n)
+print("escribir\ncualquier\ncosas")
+"""
+escribir
+cualquier
+cosas
+"""
+
