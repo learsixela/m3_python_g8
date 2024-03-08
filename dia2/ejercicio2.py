@@ -77,4 +77,13 @@ print(nombre)#MijailPalma
 #precision de datos 
 print(5/9)#0.5555555555555556
 print(f"resultado de la division {5/9:.2f}")
-print("el resultado de la dicision",round(5/9,3))
+print("el resultado de la division",round(5/9,3))
+
+
+nombre = input("Ingrese su Nombre:  ")
+print("Tu nombre es",nombre)
+print(f"Tu nombre es {nombre}")
+
+edad = input("Ingrese su Edad:  ")
+print("Tu tienes",edad,"años")
+print(type(edad))
