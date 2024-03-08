@@ -50,3 +50,31 @@ cualquier
 cosas
 """
 
+mi_direccion = ""
+miDireccion = ""
+cantidad_alumnos= 30
+peso = 85.5
+verdadero= True
+
+#Tipo de datos type(nombre_variable)
+print(type(nombre))#<class 'str'>
+print(type(año))#<class 'str'>
+print(type(mes))#<class 'int'>
+print(type(peso))#<class 'float'>
+print(type(verdadero))#<class 'bool'>
+
+type(verdadero) # no imprime el tipo de dato
+
+#Manipulacion Variables
+
+numero = 2
+numero = numero + 3 #numero = 2 + 3
+print(numero)#5
+
+nombre = nombre + "Palma" # nombre = "Mijail"+"Palma"
+print(nombre)#MijailPalma
+
+#precision de datos 
+print(5/9)#0.5555555555555556
+print(f"resultado de la division {5/9:.2f}")
+print("el resultado de la dicision",round(5/9,3))
