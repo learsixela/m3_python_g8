@@ -21,6 +21,7 @@ imc = peso_kilogramos/ (estatura ** 2 )
 print(f"Tu IMC es de {round(imc,2)}")
 #print(f"Tu IMC es de {imc:.2}")
 
+
 if imc < 18.5:
     clasificacion = "Bajo Peso"
 elif imc >=18.5 and imc < 25:
