@@ -1,6 +1,6 @@
 """
-Listas 
-pueden contener distintos tipos de elementos
+lista: conjunto de datos, ordenados segun su ingreso, separados por coma, 
+el primer elemento, esta en la posicion cero, pueden contener distintos tipos de elementos
 son mutables
 se usan los [] para definir una variable de tipo lista
 **indice => la posicion de los elementos
