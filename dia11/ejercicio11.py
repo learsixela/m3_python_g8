@@ -76,7 +76,7 @@ print(dic1==dic3) #False
 print(dic4==dic3) #False
 
 ##Diccionarios Anidados
-system("clear")
+system("clear")#system("cls")
 
 pares_impares ={
     "pares":{

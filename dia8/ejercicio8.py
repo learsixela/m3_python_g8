@@ -82,6 +82,7 @@ print("---------diccionario----------------")
 
 for clave in diccionario:
     print(clave)
+    
 print("") 
 for clave in diccionario:
     print(f"clave {clave} - valor {diccionario[clave]}")
