@@ -29,3 +29,24 @@ for tv in tupla_vocales:
     #
 #count, cuenta la veces que se encuentra un elemento en la tupla
 print(tupla_vocales.count("a"))
+
+system("clear")
+lista_dicc=list({"k1": 5, "k2": 7}.items()) 
+print(lista_dicc)# [('k1', 5), ('k2', 7)]
+print("")
+print(lista_dicc[0])#accediendo a la tupla enla posicion cero
+print(lista_dicc[0][0])#k1
+print(lista_dicc[0][1])#5
+
+print(lista_dicc[1])
+print(lista_dicc[1][0])#k2
+print(lista_dicc[1][1])#7
+
+system("clear")
+
+print(dir(lista_dicc))
+system("clear")
+print(dir(tupla_vocales))
+
+
+
