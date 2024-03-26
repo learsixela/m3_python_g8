@@ -6,7 +6,7 @@ la clave debe ser UNICA=> si existe duplicidad, retorna solo la ultima referenci
 #diccionario vacio
 notas = {}
 #creacion de un diccionario
-notas = {
+notas = {#
     "Camila": 7, 
     "Antonio": 7, 
     "Felipe": 6, 

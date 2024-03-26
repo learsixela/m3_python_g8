@@ -67,9 +67,9 @@ print(colores)#['amarillo', 'azul', 'blanco', 'cafe', 'negro', 'rosa', 'verde']
 
 lista2 = lista1 #ESTO NO ES UN RESPALDO DE LA LISTA 
 
-lista3 = lista1.copy()#SI ES UN RESLADO DE LOS DATOS
-lista4 = lista1[:]    #SI ES UN RESLADO DE LOS DATOS(slice)
-lista5 = list(lista1) #SI ES UN RESLADO DE LOS DATOS
+lista3 = lista1.copy()#SI ES UN RESPALDO DE LOS DATOS
+lista4 = lista1[:]    #SI ES UN RESPALDO DE LOS DATOS(slice)
+lista5 = list(lista1) #SI ES UN RESPALDO DE LOS DATOS
 lista7 = lista1 + []
 lista8 = lista1 * 1
 
