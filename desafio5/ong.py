@@ -1,5 +1,13 @@
 #paso 1: Calculo del factorial de un numero
 def factorial(numero):#5! = 5*4*3*2*1
+    """Calculo del factorial de un numero
+
+    Args:
+        numero (int): numero del cual se calculara el factorial
+
+    Returns:
+        int: resultado del factorial de un numero
+    """
     valor = 1 # variable acumuladora
     for n in range(1,numero+1):#1,2,3,4,5
         valor = valor * n
@@ -9,6 +17,14 @@ def factorial(numero):#5! = 5*4*3*2*1
 
 #paso 2: Una función que calcule la productoria
 def productoria(lista):
+    """_summary_
+
+    Args:
+        lista (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     valor = 1
     for elemento in lista:
         valor *= elemento
