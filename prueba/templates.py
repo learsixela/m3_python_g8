@@ -14,11 +14,13 @@ template = Template("""
 </head>
 
 <body>
-    <h1>Aves de Chile</h1>
-    <br>
-
-    $contenido
-    
+    <div class="container">
+        <h1>Aves de Chile</h1>
+        <br>
+        <div class="row">
+            $contenido
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -28,12 +30,14 @@ template = Template("""
 """)
 
 template2 = Template("""
-    <div class="card" style="width: 18rem;">
-        <img src="$url_img_full"
-            class="card-img-top" alt="$titulo_esp" width="200">
-        <div class="card-body">
-            <h5 class="card-title">$titulo_esp</h5>
-            <p class="card-text">$titulo_en</p>
+    <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+            <img src="$url_img_full"
+                class="card-img-top" alt="$titulo_esp" width="200">
+            <div class="card-body">
+                <h5 class="card-title">$titulo_esp</h5>
+                <p class="card-text">$titulo_en</p>
+            </div>
         </div>
     </div>
 """)
